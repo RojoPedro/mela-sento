@@ -1,17 +1,22 @@
-# mela_sento
+# MelaSento
 
-A new Flutter project.
+A cross-platform social betting mobile application built with **Flutter**, **Dart**, and **Supabase**.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Authentication:** Email/password & Google Sign-In via `supabase_flutter` and `google_sign_in`
+- **Groups & Bets:** Create bets (`create_bet_page.dart`), manage friend groups (`group_detail_page.dart`), and view rankings/stats (`fl_chart`)
+- **Dark Glassmorphic UI:** Custom dark theme (`core/theme.dart`) using `glass_kit`, `google_fonts`, and `animate_do`
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter** / **Dart** (`>=3.0.0 <4.0.0`)
+- **Supabase** (Auth & Realtime Database)
+- **fl_chart**, **glass_kit**, **animate_do**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Local Setup
+
+```bash
+flutter pub get
+flutter run
+```
